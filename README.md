@@ -1,35 +1,16 @@
-# polis_testtask
+# Тестовое задание
 
-This template should help get you started developing with Vue 3 in Vite.
+Написать SPA на Vue 2+ с простой и функциональной адаптивной версткой.
+Для глобального стейта использовать vuex, для навигации vue-router.
+Для работы со стилями использовать SCSS.
 
-## Recommended IDE Setup
+Приложение должно состоять из 2 экранов:
+1) Список пользователей
+2) Страница конкретного пользователя, которая содержит список альбомов и список постов пользователя. Каждый элемент списка альбомов это карусель с первыми 5 фото из этого альбома.
+3) Добавить возможность делать ссылки на страницу конкретного пользователя с параметром, какую страницу открыть "список альбомов" или "список постов"
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+По желанию можно реализовать добавление/редактирование постов.
 
-## Customize configuration
+Можно использовать любые библиотеки.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+API для выполнения задания: https://jsonplaceholder.typicode.com/
